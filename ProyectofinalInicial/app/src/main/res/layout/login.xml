@@ -21,12 +21,16 @@
 
     <Button
         android:id="@+id/btnEntrar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="106dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="148dp"
+        android:backgroundTint="#A61746"
         android:text="Entrar"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="529dp" />
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/edtUsuario"
@@ -38,6 +42,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
+        android:background="@drawable/cuadrostexto"
         android:text="Usuario"
         android:textColor="#ECD0D9"
         app:layout_constraintEnd_toEndOf="parent"
@@ -52,11 +57,12 @@
         android:ems="10"
         android:inputType="textPassword"
         android:minHeight="48dp"
+        android:background="@drawable/cuadrostexto"
         app:layout_constraintBottom_toTopOf="@+id/btnEntrar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtUsuario"
-        app:layout_constraintVertical_bias="0.27" />
+        app:layout_constraintVertical_bias="0.38" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
