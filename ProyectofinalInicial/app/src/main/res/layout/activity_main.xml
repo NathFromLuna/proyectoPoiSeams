@@ -19,6 +19,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/costurasSeams" />
+        app:srcCompat="@drawable/costuras_seams" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="349dp"
+        android:layout_height="443dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.652"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_seams" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
