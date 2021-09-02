@@ -8,12 +8,12 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="418dp"
+        android:layout_width="0dp"
         android:layout_height="800dp"
         android:background="#D4355F"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
@@ -23,7 +23,7 @@
         android:id="@+id/edtUsuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="20dp"
         android:layout_marginBottom="8dp"
         android:autoText="false"
         android:backgroundTint="#F6E6EB"
@@ -44,13 +44,13 @@
         android:layout_width="106dp"
         android:layout_height="58dp"
         android:layout_marginTop="16dp"
-        android:layout_marginBottom="128dp"
+        android:layout_marginBottom="110dp"
         android:backgroundTint="#A61746"
         android:text="Entrar"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtContrasena" />
 
@@ -58,7 +58,7 @@
         android:id="@+id/edtContrasena"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="20dp"
         android:backgroundTint="#F6E6EB"
         android:ems="10"
         android:inputType="textPersonName"
@@ -74,18 +74,23 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="358dp"
-        android:layout_height="281dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="4dp"
+        android:layout_width="332dp"
+        android:layout_height="190dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+
+
+        android:layout_marginBottom="24dp"
         android:adjustViewBounds="false"
+
         android:cropToPadding="true"
+        android:scaleType="fitXY"
         app:layout_constraintBottom_toTopOf="@+id/edtContrasena"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.918"
+        app:layout_constraintHorizontal_bias="0.91"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.536"
+        app:layout_constraintVertical_bias="0.79"
         app:srcCompat="@drawable/logo_seams" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
