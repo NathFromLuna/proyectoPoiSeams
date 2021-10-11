@@ -4,93 +4,73 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D4355F">
+    android:background="@drawable/gradiente">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="0dp"
-        android:layout_height="800dp"
-        android:background="#D4355F"
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="188dp"
+        android:backgroundTint="#883535"
+        android:text="Entrar"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/costuras_seams" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/edtUsuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="372dp"
         android:autoText="false"
-        android:backgroundTint="#F6E6EB"
+        android:backgroundTint="#EAB9C9"
         android:backgroundTintMode="add"
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:text="Usuario"
-        android:textColor="#F6E6EB"
-        app:layout_constraintBottom_toTopOf="@+id/edtContrasena"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
-
-    <Button
-        android:id="@+id/btnEntrar"
-        android:layout_width="106dp"
-        android:layout_height="58dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="110dp"
-        android:backgroundTint="#A61746"
-        android:text="Entrar"
-        android:textSize="16sp"
+        android:textColor="#ECD0D9"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtContrasena" />
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/edtContrasena"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:backgroundTint="#F6E6EB"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="textPassword"
         android:minHeight="48dp"
-        android:password="true"
-        android:textColor="#F6E6EB"
+        android:text="Contraseña"
         app:layout_constraintBottom_toTopOf="@+id/btnEntrar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtUsuario"
-        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+        app:layout_constraintVertical_bias="0.27" />
 
     <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="332dp"
-        android:layout_height="190dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-
-
-        android:layout_marginBottom="24dp"
-        android:adjustViewBounds="false"
-
-        android:cropToPadding="true"
-        android:scaleType="fitXY"
-        app:layout_constraintBottom_toTopOf="@+id/edtContrasena"
+        android:id="@+id/imageView6"
+        android:layout_width="398dp"
+        android:layout_height="184dp"
+        android:layout_marginTop="92dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.91"
+        app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.79"
-        app:srcCompat="@drawable/logo_seams" />
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/costuraseams" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

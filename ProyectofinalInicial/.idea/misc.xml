@@ -3,18 +3,40 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/NathFromLuna/AndroidStudioProjects/ProyectofinalInicial/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2537037037037037" />
-        <entry key="..\:/Users/NathFromLuna/AndroidStudioProjects/ProyectofinalInicial/app/src/main/res/drawable/barra_navegacion.xml" value="0.28703703703703703" />
-        <entry key="..\:/Users/NathFromLuna/AndroidStudioProjects/ProyectofinalInicial/app/src/main/res/drawable/barras_chat_tareas_equipos.xml" value="0.27025641025641023" />
-        <entry key="..\:/Users/NathFromLuna/AndroidStudioProjects/ProyectofinalInicial/app/src/main/res/drawable/cuadros_mensaje.xml" value="0.27025641025641023" />
-        <entry key="..\:/Users/NathFromLuna/AndroidStudioProjects/ProyectofinalInicial/app/src/main/res/drawable/cuadrostexto.xml" value="0.3482051282051282" />
-        <entry key="..\:/Users/NathFromLuna/AndroidStudioProjects/ProyectofinalInicial/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2537037037037037" />
-        <entry key="..\:/Users/NathFromLuna/AndroidStudioProjects/ProyectofinalInicial/app/src/main/res/layout/activity_log_in_seams.xml" value="0.3375" />
-        <entry key="..\:/Users/NathFromLuna/AndroidStudioProjects/ProyectofinalInicial/app/src/main/res/layout/activity_main.xml" value="0.3101851851851852" />
-        <entry key="..\:/Users/NathFromLuna/AndroidStudioProjects/ProyectofinalInicial/app/src/main/res/layout/activity_patanlla_principal_seams.xml" value="0.3375" />
-        <entry key="..\:/Users/NathFromLuna/AndroidStudioProjects/ProyectofinalInicial/app/src/main/res/layout/login.xml" value="0.3101851851851852" />
-        <entry key="..\:/Users/NathFromLuna/AndroidStudioProjects/ProyectofinalInicial/app/src/main/res/layout/principal_seams.xml" value="0.3375" />
-        <entry key="..\:/Users/NathFromLuna/AndroidStudioProjects/ProyectofinalInicial/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3482051282051282" />
+        <entry key="..\:/Users/NathFromLuna/Desktop/poi/proyecto/poi/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.19074074074074074" />
+        <entry key="..\:/Users/NathFromLuna/Desktop/poi/proyecto/poi/app/src/main/res/drawable/esquinas.xml" value="0.19074074074074074" />
+        <entry key="..\:/Users/NathFromLuna/Desktop/poi/proyecto/poi/app/src/main/res/drawable/gradiente.xml" value="0.19074074074074074" />
+        <entry key="..\:/Users/NathFromLuna/Desktop/poi/proyecto/poi/app/src/main/res/drawable/ic_baseline_chat_24.xml" value="0.3536458333333333" />
+        <entry key="..\:/Users/NathFromLuna/Desktop/poi/proyecto/poi/app/src/main/res/drawable/ic_baseline_group_24.xml" value="0.19074074074074074" />
+        <entry key="..\:/Users/NathFromLuna/Desktop/poi/proyecto/poi/app/src/main/res/drawable/ic_launcher_background.xml" value="0.19074074074074074" />
+        <entry key="..\:/Users/NathFromLuna/Desktop/poi/proyecto/poi/app/src/main/res/drawable/ic_tarea.xml" value="0.19074074074074074" />
+        <entry key="..\:/Users/NathFromLuna/Desktop/poi/proyecto/poi/app/src/main/res/layout/activity_main.xml" value="0.20185185185185187" />
+        <entry key="..\:/Users/NathFromLuna/Desktop/poi/proyecto/poi/app/src/main/res/layout/chat.xml" value="0.20185185185185187" />
+        <entry key="..\:/Users/NathFromLuna/Desktop/poi/proyecto/poi/app/src/main/res/layout/chat2.xml" value="0.33" />
+        <entry key="..\:/Users/NathFromLuna/Desktop/poi/proyecto/poi/app/src/main/res/layout/chatemp.xml" value="0.20185185185185187" />
+        <entry key="..\:/Users/NathFromLuna/Desktop/poi/proyecto/poi/app/src/main/res/layout/chats.xml" value="0.33" />
+        <entry key="..\:/Users/NathFromLuna/Desktop/poi/proyecto/poi/app/src/main/res/layout/chatstemp.xml" value="0.3194444444444444" />
+        <entry key="..\:/Users/NathFromLuna/Desktop/poi/proyecto/poi/app/src/main/res/layout/gpoteml.xml" value="0.3194444444444444" />
+        <entry key="..\:/Users/NathFromLuna/Desktop/poi/proyecto/poi/app/src/main/res/layout/grupo.xml" value="0.3194444444444444" />
+        <entry key="..\:/Users/NathFromLuna/Desktop/poi/proyecto/poi/app/src/main/res/layout/login.xml" value="0.3194444444444444" />
+        <entry key="..\:/Users/NathFromLuna/Desktop/poi/proyecto/poi/app/src/main/res/layout/tarea.xml" value="0.3194444444444444" />
+        <entry key="..\:/Users/NathFromLuna/Desktop/poi/proyecto/poi/app/src/main/res/layout/tareains.xml" value="0.3194444444444444" />
+        <entry key="..\:/Users/NathFromLuna/Desktop/poi/proyecto/poi/app/src/main/res/layout/tareatemp.xml" value="0.3194444444444444" />
+        <entry key="..\:/Users/cscsd/AndroidStudioProjects/app/src/main/res/drawable/esquinas.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/cscsd/AndroidStudioProjects/app/src/main/res/drawable/gradiente.xml" value="0.21388888888888888" />
+        <entry key="..\:/Users/cscsd/AndroidStudioProjects/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/cscsd/AndroidStudioProjects/app/src/main/res/layout/chat.xml" value="0.25" />
+        <entry key="..\:/Users/cscsd/AndroidStudioProjects/app/src/main/res/layout/chat2.xml" value="0.25" />
+        <entry key="..\:/Users/cscsd/AndroidStudioProjects/app/src/main/res/layout/chatemp.xml" value="0.33" />
+        <entry key="..\:/Users/cscsd/AndroidStudioProjects/app/src/main/res/layout/chats.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/cscsd/AndroidStudioProjects/app/src/main/res/layout/chatsteml.xml" value="0.33" />
+        <entry key="..\:/Users/cscsd/AndroidStudioProjects/app/src/main/res/layout/chatstemp.xml" value="0.33" />
+        <entry key="..\:/Users/cscsd/AndroidStudioProjects/app/src/main/res/layout/gpoteml.xml" value="0.1703125" />
+        <entry key="..\:/Users/cscsd/AndroidStudioProjects/app/src/main/res/layout/grupo.xml" value="0.1875" />
+        <entry key="..\:/Users/cscsd/AndroidStudioProjects/app/src/main/res/layout/login.xml" value="0.3048211508553655" />
+        <entry key="..\:/Users/cscsd/AndroidStudioProjects/app/src/main/res/layout/tarea.xml" value="0.25" />
+        <entry key="..\:/Users/cscsd/AndroidStudioProjects/app/src/main/res/layout/tareains.xml" value="0.25" />
+        <entry key="..\:/Users/cscsd/AndroidStudioProjects/app/src/main/res/layout/tareatemp.xml" value="0.25" />
       </map>
     </option>
   </component>
