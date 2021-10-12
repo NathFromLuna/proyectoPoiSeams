@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="309dp"
+    android:layout_height="75dp"
+    android:layout_marginTop="40dp"
+    android:background="@drawable/esquinas"
+    android:orientation="vertical"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <TextView
+        android:id="@+id/tvtitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Tarea-Esquema /Grupo Chido"
+        android:textAllCaps="false"
+        android:textColor="#252525"
+        android:textSize="20sp"
+        android:textStyle="normal|bold|italic" />
+
+    <TextView
+        android:id="@+id/tvfecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:paddingTop="20dp"
+        android:text="Vence el 19 de septiembre "
+        android:textColor="#A3A2A2"
+        android:textStyle="italic" />
+
+</LinearLayout>
