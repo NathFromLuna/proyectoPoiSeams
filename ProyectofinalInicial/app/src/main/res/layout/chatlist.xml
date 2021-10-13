@@ -42,7 +42,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
-        tools:listitem="@layout/gpotemp" />
+        tools:listitem="@layout/chatemp" />
 
     <ImageView
         android:id="@+id/imageView3"
