@@ -17,6 +17,5 @@ class login : AppCompatActivity() {
         btnEntrar.setOnClickListener {
             (Intent (this,MainActivity::class.java ))
         }
-
     }
 }
