@@ -11,11 +11,14 @@ class login : AppCompatActivity() {
         setContentView(R.layout.login)
         val btnRegistro = findViewById<Button>(R.id.btnRegistro);
         val btnEntrar = findViewById<Button>(R.id.btnEntrar);
+
         btnRegistro.setOnClickListener {
-          (Intent (this,crearcuenta::class.java ))
+            val intent=(Intent (this,crearcuenta::class.java ))
+            startActivity(intent)
         }
         btnEntrar.setOnClickListener {
-            (Intent (this,MainActivity::class.java ))
+            val intent=(Intent (this,MainActivity::class.java ))
+            startActivity(intent)
         }
     }
 }
