@@ -11,10 +11,10 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:background="#EC9C9C"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="#FFEA8383">
 
         <Button
             android:id="@+id/btnchat"
@@ -22,9 +22,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_weight="1"
-            android:text="Chat"
-            android:backgroundTint="#CA4F4F"
-            />
+            android:backgroundTint="#C54D4D"
+            android:text="Chat" />
 
         <Button
             android:id="@+id/btngpo"
@@ -32,8 +31,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_weight="1"
-            android:text="Grupo"
-            android:backgroundTint="#CA4F4F"/>
+            android:backgroundTint="#BA4949"
+            android:text="Grupo" />
 
         <Button
             android:id="@+id/btntarea"
@@ -41,15 +40,15 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_weight="1"
-            android:text="Tarea"
-            android:backgroundTint="#CA4F4F"/>
+            android:backgroundTint="#9F3D3D"
+            android:text="Tarea" />
     </LinearLayout>
 
     <FrameLayout
         android:id="@+id/contenido"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="#CA4F4F"
+        android:background="#EA8383"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

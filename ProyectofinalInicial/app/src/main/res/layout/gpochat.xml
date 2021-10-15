@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EC9C9C"
-    tools:context=".MainActivity">
+    android:background="#D4355F">
+
     <LinearLayout
         android:id="@+id/linearLayout2"
         android:layout_width="409dp"
@@ -39,13 +39,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <de.hdodenhof.circleimageview.CircleImageView
+        <ImageView
             android:id="@+id/imageView11"
             android:layout_width="65dp"
             android:layout_height="wrap_content"
-            android:src="@drawable/gato"
-            app:civ_border_width="1dp"
-            app:civ_border_color="#ACACAC"/>
+            tools:srcCompat="@tools:sample/avatars" />
 
         <TextView
             android:id="@+id/tvnombre"
@@ -53,7 +51,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:layout_weight="1"
-            android:text="Mariana"
+            android:text="Grupo Chido "
             android:textColor="#CAB0B0"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -72,14 +70,20 @@
 
     </LinearLayout>
 
+
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvchats"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:background="#D4355F"
+        android:paddingLeft="10dp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
-        app:layout_constraintVertical_bias="1.0"
-        tools:listitem="@layout/messagetemp" />
+        tools:listitem="@layout/messagetemp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
