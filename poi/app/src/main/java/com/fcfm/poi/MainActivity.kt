@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         val btngpo = findViewById<Button>(R.id.btngpo)
         val btntarea = findViewById<Button>(R.id.btntarea)
 
+        cambiar(grupo(),"grupo")
         btnchat.setOnClickListener {
             cambiar(chats(),"chats")
 

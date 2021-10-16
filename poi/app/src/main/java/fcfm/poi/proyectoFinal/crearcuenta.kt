@@ -35,6 +35,7 @@ class crearcuenta : AppCompatActivity() {
                         val usu= Usuario("",correo,usuario,contrasena)
                         crearUsuario(usu)
                         val intent=(Intent (this,MainActivity::class.java ))
+
                         startActivity(intent)
                     }else{
                         Toast.makeText(this,"escriba una contraseña",Toast.LENGTH_LONG).show()
@@ -45,8 +46,6 @@ class crearcuenta : AppCompatActivity() {
             }else{
                 Toast.makeText(this,"escriba un correo",Toast.LENGTH_LONG).show()
             }
-
-
 
         }
 
