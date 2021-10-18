@@ -16,13 +16,13 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <EditText
-            android:id="@+id/editTextTextPersonName"
+            android:id="@+id/message"
             android:layout_width="366dp"
             android:layout_height="match_parent"
             android:inputType="textPersonName" />
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/ivsend"
             android:layout_width="14dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -40,7 +40,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/imageView11"
+            android:id="@+id/ivpicture"
             android:layout_width="65dp"
             android:layout_height="wrap_content"
             tools:srcCompat="@tools:sample/avatars" />
@@ -57,7 +57,7 @@
             android:textStyle="bold" />
 
         <ImageView
-            android:id="@+id/imageView5"
+            android:id="@+id/ivadd"
             android:layout_width="51dp"
             android:layout_height="match_parent"
             app:srcCompat="@drawable/ic_baseline_add_circle_24" />
@@ -75,7 +75,7 @@
         android:id="@+id/rvchats"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="#D4355F"
+        android:background="#EC9C9C"
         android:paddingLeft="10dp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
         app:layout_constraintEnd_toEndOf="parent"

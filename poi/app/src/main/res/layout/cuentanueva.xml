@@ -8,7 +8,7 @@
     tools:context=".crearcuenta">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/ivaddpic"
         android:layout_width="443dp"
         android:layout_height="678dp"
         android:background="#D4355F"
@@ -84,7 +84,7 @@
         android:inputType="textPassword"
         android:minHeight="48dp"
         android:textColorHint="#EAB9C9"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintBottom_toBottomOf="@+id/ivaddpic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.482"
         app:layout_constraintStart_toStartOf="parent"

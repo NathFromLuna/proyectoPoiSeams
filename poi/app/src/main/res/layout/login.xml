@@ -8,7 +8,7 @@
     tools:context=".login">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/ivaddpic"
         android:layout_width="443dp"
         android:layout_height="678dp"
         android:background="#D4355F"

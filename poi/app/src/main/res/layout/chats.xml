@@ -40,20 +40,20 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/imageView9"
+            android:id="@+id/ivbuscar"
             android:layout_width="63dp"
             android:layout_height="match_parent"
             app:srcCompat="@drawable/ic_baseline_search_24" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName3"
+            android:id="@+id/busqueda"
             android:layout_width="292dp"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName" />
 
         <ImageView
-            android:id="@+id/imageView10"
+            android:id="@+id/ivaddperson"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:srcCompat="@drawable/ic_baseline_person_add" />

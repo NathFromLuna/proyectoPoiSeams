@@ -32,10 +32,10 @@
             android:text="Name" />
 
         <ImageView
-            android:id="@+id/imageView14"
+            android:id="@+id/ivaddgpo"
             android:layout_width="51dp"
             android:layout_height="match_parent"
-            app:srcCompat="@drawable/ic_baseline_add_circle_24" />
+            app:srcCompat="@drawable/ic_group_add" />
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView

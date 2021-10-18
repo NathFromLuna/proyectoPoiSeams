@@ -2,10 +2,12 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ivaddphoto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#EC9C9C"
     tools:context=".MainActivity">
+
     <LinearLayout
         android:id="@+id/linearLayout2"
         android:layout_width="409dp"
@@ -16,7 +18,7 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <EditText
-            android:id="@+id/editTextTextPersonName"
+            android:id="@+id/message"
             android:layout_width="329dp"
             android:layout_height="match_parent"
             android:inputType="textPersonName" />
@@ -28,7 +30,7 @@
             app:srcCompat="@drawable/ic_add_to_photos" />
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/ivsend"
             android:layout_width="14dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -47,12 +49,12 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/imageView11"
+            android:id="@+id/ivpicture"
             android:layout_width="65dp"
             android:layout_height="wrap_content"
             android:src="@drawable/gato"
-            app:civ_border_width="1dp"
-            app:civ_border_color="#ACACAC"/>
+            app:civ_border_color="#ACACAC"
+            app:civ_border_width="1dp" />
 
         <TextView
             android:id="@+id/tvnombre"
@@ -64,12 +66,6 @@
             android:textColor="#CAB0B0"
             android:textSize="24sp"
             android:textStyle="bold" />
-
-        <ImageView
-            android:id="@+id/imageView5"
-            android:layout_width="51dp"
-            android:layout_height="match_parent"
-            app:srcCompat="@drawable/ic_baseline_add_circle_24" />
 
         <ImageView
             android:id="@+id/iVCALL"
