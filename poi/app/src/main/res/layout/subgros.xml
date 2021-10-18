@@ -44,8 +44,9 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout8"
+        android:layout_width="306dp"
+        android:layout_height="50dp"
         android:layout_marginTop="80dp"
         android:background="#FFC84F6F"
         app:layout_constraintEnd_toEndOf="parent"
@@ -84,7 +85,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout7"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout8"
         tools:listitem="@layout/gpoteml" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
