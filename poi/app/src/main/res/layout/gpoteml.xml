@@ -8,13 +8,6 @@
     android:background="#FFC84F6F">
 
 
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="10dp"
-        tools:srcCompat="@tools:sample/avatars" />
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -26,24 +19,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingTop="6dp"
-            android:text="Grupo 1"
+            android:text="Subgrupo1"
+            android:textAlignment="center"
             android:textColor="#100F0F"
-            android:textSize="20sp"
+            android:textSize="34sp"
             android:textStyle="bold|italic" />
 
-        <TextView
-            android:id="@+id/tvmensaje"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Jose Luis:Todo bien" />
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="right"
-            android:text="7:50"
-            android:textStyle="italic" />
     </LinearLayout>
 
 
