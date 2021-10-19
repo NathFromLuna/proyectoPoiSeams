@@ -19,7 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingTop="6dp"
-            android:text="Grupo1"
+            android:text="Subgrupo1"
             android:textAlignment="center"
             android:textColor="#100F0F"
             android:textSize="34sp"
