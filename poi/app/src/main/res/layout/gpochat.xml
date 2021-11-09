@@ -4,30 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D4355F">
-
-    <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="409dp"
-        android:layout_height="48dp"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
-
-        <EditText
-            android:id="@+id/message"
-            android:layout_width="366dp"
-            android:layout_height="match_parent"
-            android:inputType="textPersonName" />
-
-        <ImageView
-            android:id="@+id/ivsend"
-            android:layout_width="14dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            app:srcCompat="@android:drawable/ic_menu_send" />
-    </LinearLayout>
+    android:background="#D4355F"
+    tools:context=".gpochat">
 
     <LinearLayout
         android:id="@+id/linearLayout4"
@@ -62,28 +40,49 @@
             android:layout_height="match_parent"
             app:srcCompat="@drawable/ic_baseline_add_circle_24" />
 
-        <ImageView
-            android:id="@+id/iVCALL"
-            android:layout_width="47dp"
-            android:layout_height="match_parent"
-            app:srcCompat="@drawable/ic_call" />
-
     </LinearLayout>
 
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvchats"
+    <FrameLayout
+        android:id="@+id/contenido"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="#EC9C9C"
-        android:paddingLeft="10dp"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        android:background="#E4A0A0"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
-        tools:listitem="@layout/messagetemp">
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
-    </androidx.recyclerview.widget.RecyclerView>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#83223B"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+        <Button
+            android:id="@+id/btnconversacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="#9F3D3D"
+            android:text="Chat" />
+
+        <Button
+            android:id="@+id/btnpubli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="#9F3D3D"
+            android:text="Publicación" />
+    </LinearLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
